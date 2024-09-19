@@ -43,11 +43,11 @@ public class MainActivity extends AppCompatActivity {
         int choice = random.nextInt(3);
         switch (choice) {
             case 0:
-                return new Lion();
+                return new Lion(selectAnimal().getStrength());
             case 1:
-                return new Elephant();
+                return new Elephant(selectAnimal().getStrength());
             default:
-                return new Monkey();
+                return new Monkey(selectAnimal().getStrength());
         }
     }
 
