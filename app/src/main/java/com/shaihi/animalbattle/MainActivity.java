@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         battleButton.setOnClickListener(view -> startBattle());
     }
 
-    private void startBattle() {
+     private void startBattle() {
         Animal playerAnimalInstance = selectAnimal();
         Animal computerAnimalInstance = selectAnimal();
 

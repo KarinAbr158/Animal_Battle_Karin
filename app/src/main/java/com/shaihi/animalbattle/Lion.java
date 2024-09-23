@@ -16,6 +16,6 @@ public class Lion extends Animal{
         else if(other instanceof Elephant){
             return "The elephant beat the lion.";
         }
-        return "";
+         return "";
     }
 }

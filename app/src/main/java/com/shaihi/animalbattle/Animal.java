@@ -11,6 +11,6 @@ public abstract class Animal {
     public abstract String battle(Animal other);
 
     public int getStrength() {
-        return strength;
+         return strength;
     }
 }
